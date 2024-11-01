@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    justify-content: center;
+        }
+        #pic2{
+            float: left;
+            margin-left: 5%;
+        }
+        #pic3{
+            float: right;
+            margin-right: 5%;
+        }
+        .star{
+            margin-top: -3%;
+        }
+        p{
+            margin-left: 1%;
+        }
+        #fire{
+            margin-top: -3%;
+        }
+      .geo img{
+        vertical-align: top;
+      }
+      h3{
+        margin-top: -2%;
+        margin-left: 1.5%;
+      }
+      #survey{
+        margin-top: -2.5%;
+        margin-left: 2.5%;
+      }

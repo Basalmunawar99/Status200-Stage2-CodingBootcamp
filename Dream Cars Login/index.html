@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Cars</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+<h1>DREAM CARS</h1>
+
+<div id="loginDiv">
+    <label for="name">Enter your name:</label> <br>
+    <input type="text" id="carUser"> <br><br>
+    <label for="password">Enter your password:</label> <br>
+    <input type="password" id="carPassword"> <br><br>
+    <button onclick="logIn()">LogIn</button>
+    <p id="logoDiv" style="color: brown;"></p>
+</div>
+
+<div id="buttonDiv">
+    <button onclick="showCar('typeR')">Car 1</button>
+    <button onclick="showCar('typeVTEC')">Car 2</button>
+    <button onclick="showCar('gtr')">Car 3</button>
+    <button id="logoutBtn" onclick="logOut()">Log Out</button>
+</div>
+
+<div id="typeR" class="cars">
+    <h1>MY DREAM CAR</h1>
+    <img src="https://shorturl.at/wMkwv" alt="typeR">
+    <br>
+    <p>I WILL BUY THIS CAR ONE DAY!</p>
+</div>
+
+<div id="typeVTEC" class="cars">
+    <h1>My FAVORITE CAR</h1>
+    <img src="https://wallpapercave.com/wp/wp2716513.jpg" alt="typeVTEC">
+    <br>
+    <p>&#128525; &#129505; &#128147;</p>
+</div>
+
+<div id="gtr" class="cars">
+    <h1>NISSAN GTR</h1>
+    <img src="https://shorturl.at/HDHpH" alt="nissangtr">
+    <br>
+    <p>FAVORITE OF MOST OF THE MEN</p>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333; 
+    padding:15px 10px;
+    overflow: auto; 
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+  
+  nav li {
+    display: inline-block; 
+    margin-right: 20px;
+    font-size: larger;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .right li {
+    margin-left: 20px; 
+  }
+  
+  nav a {
+    color: #fff;  
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: black;
+    background-color:white ;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+} 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="atm.css" />
+    <title>ATM Simulation</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="pinSection">
+        <h1>Login</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" />
+        <label for="userPin">PIN:</label>
+        <input type="password" id="userPin" />
+        <button onclick="login()">Login</button>
+        <p id="loginMessage"></p>
+      </div>
+
+      <div id="buttonSection" class="hidden">
+        <button onclick="showSection('withdraw')">Withdraw</button>
+        <button onclick="showSection('deposit')">Deposit</button>
+        <button onclick="showSection('balance')">Balance</button>
+      </div>
+
+      <div id="withdrawSection" class="hidden">
+        <h1>Withdraw Money</h1>
+        <label for="withdrawAmount">Amount:</label>
+        <input type="number" id="withdrawAmount" />
+        <button onclick="withdraw()">Withdraw</button>
+        <p id="withdrawMessage"></p>
+        <p id="notesStock">Notes Stock:</p>
+      </div>
+
+      <div id="depositSection" class="hidden">
+        <h1>Deposit Money</h1>
+        <label for="depositAmount">Amount:</label>
+        <input type="number" id="depositAmount" />
+        <button onclick="deposit()">Deposit</button>
+        <p id="depositMessage"></p>
+      </div>
+
+      <div id="balanceSection" class="hidden">
+        <h1>Balance</h1>
+        <p id="userBalance">Current Balance:</p>
+      </div>
+    </div>
+
+    <script src="atm.js"></script>
+  </body>
+</html>

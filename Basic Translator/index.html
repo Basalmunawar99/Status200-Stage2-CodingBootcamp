@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>English to Malay Translator</title>
+	<!-- Link to external CSS file -->
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<h1>English to Malay Translator</h1>
+
+	<div id="translator">
+		<input type="text" id="inputWord" placeholder="Enter a valid word">
+	</div>
+	<br>
+
+	<div id="translatorBtn">
+		<button onclick="translateEngToMalay()">English To Malay</button>
+		<br><br>
+		<button onclick="translateMalayToEng()">Malay To English</button>
+	</div>
+
+	<br>
+	<div id="result">
+		<h2>Result:<span id="outputWord"></span></h2>
+	</div>
+
+	<!-- Link to external JavaScript file -->
+	<script src="index.js"></script>
+</body>
+</html>

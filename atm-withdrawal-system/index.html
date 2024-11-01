@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body onload="ReadNotesStackSize()">
+    <div class="container">
+        <h1>Welcome to BootCamp Bank ATM</h1>
+        <p id="notesstack">Available notes:</p>
+        <div class="form-section">
+            <p>Specify the amount you would like to withdraw:</p>
+            <label for="withdrawal_amount">Please specify the withdrawal amount:</label>
+            <input id="withdrawal_amount" type="number" placeholder="Enter amount">
+            <button id="btn_withdraw" onclick="CheckAmount()">Check Amount</button>
+            <p id="error"></p>
+            <button id="btn_showdenominations" onclick="ShowDenomination()">Show Denominations (notes)</button>
+        </div>
+
+        <!-- Hidden by default, will display on button click -->
+        <p id="notes_dispensed" hidden></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#loginDiv, #buttonDiv, .cars {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#buttonDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#loginDiv input {
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#loginDiv button, #buttonDiv button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#loginDiv button:hover, #buttonDiv button:hover {
+    background-color: #0056b3;
+}
+
+.cars {
+    text-align: center;
+}
+
+.cars img {
+    width: 300px;
+    height: auto;
+}
+
+#logoutBtn {
+    margin-top: 20px;
+    background-color: #dc3545;
+}

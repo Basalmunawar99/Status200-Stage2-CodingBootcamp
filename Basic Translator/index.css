@@ -1,0 +1,46 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #f4f4f4;
+	padding: 50px;
+}
+
+h1 {
+	color: #333;
+}
+
+#translator {
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	width: 300px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+#result {
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+
+#outputWord {
+	color: #FF5722;
+	font-weight: bold;
+	padding-left: 10px;
+}

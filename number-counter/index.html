@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Even Number Counter</h1>
+    <div class="container">
+        <label for="userInput">Number we start at:</label>
+        <input type="number" id="userInput" placeholder="Start number">
+        <br><br>
+
+        <label for="userNumber">Number we end at:</label>
+        <input type="number" id="userNumber" placeholder="End number">
+        <br><br>
+
+        <button onclick="clickme()">Count Even Numbers</button>
+        <button id="resetBtn" onclick="resetForm()">Reset</button>
+
+        <p id="output">This is a loop</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
